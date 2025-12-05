@@ -1,0 +1,331 @@
+[07-Sep-2025 18:24:15 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 5
+        )
+
+)
+
+[07-Sep-2025 18:24:15 UTC] DEBUG: === CALCULATING TOTAL DISCOUNT ===
+[07-Sep-2025 18:24:15 UTC] DEBUG: Cart total: 6000
+[07-Sep-2025 18:24:15 UTC] DEBUG: User ID: 14
+[07-Sep-2025 18:24:15 UTC] DEBUG: Coupon code: none
+[07-Sep-2025 18:24:15 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:24:15 UTC] DEBUG: First order discount calculated: 900 (15% of 6000)
+[07-Sep-2025 18:24:15 UTC] DEBUG: Buy2Get1 - Cart items: Array
+(
+    [0] => Array
+        (
+            [id] => 62
+            [name] => أسرار الطيب
+            [price] => 1200
+            [quantity] => 5
+        )
+
+)
+
+[07-Sep-2025 18:24:15 UTC] DEBUG: Buy2Get1 - Total quantity: 5
+[07-Sep-2025 18:24:15 UTC] DEBUG: Buy2Get1 - Sorted prices: Array
+(
+    [0] => 1200
+    [1] => 1200
+    [2] => 1200
+    [3] => 1200
+    [4] => 1200
+)
+
+[07-Sep-2025 18:24:15 UTC] DEBUG: Buy2Get1 - Free items: 1
+[07-Sep-2025 18:24:15 UTC] DEBUG: Buy2Get1 - Adding free item 0 with price: 1200
+[07-Sep-2025 18:24:15 UTC] DEBUG: Buy2Get1 - Total discount: 1200
+[07-Sep-2025 18:24:15 UTC] DEBUG: Final discounts: Array
+(
+    [first_order] => 900
+    [buy2get1] => 1200
+    [coupon] => 0
+    [total] => 2100
+)
+
+[07-Sep-2025 18:24:15 UTC] DEBUG: === END DISCOUNT CALCULATION ===
+[07-Sep-2025 18:24:15 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:25:20 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 5
+        )
+
+)
+
+[07-Sep-2025 18:25:20 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 4
+        )
+
+)
+
+[07-Sep-2025 18:25:20 UTC] DEBUG: === CALCULATING TOTAL DISCOUNT ===
+[07-Sep-2025 18:25:20 UTC] DEBUG: Cart total: 4800
+[07-Sep-2025 18:25:20 UTC] DEBUG: User ID: 14
+[07-Sep-2025 18:25:20 UTC] DEBUG: Coupon code: none
+[07-Sep-2025 18:25:20 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:25:20 UTC] DEBUG: First order discount calculated: 720 (15% of 4800)
+[07-Sep-2025 18:25:20 UTC] DEBUG: Buy2Get1 - Cart items: Array
+(
+    [0] => Array
+        (
+            [id] => 62
+            [name] => أسرار الطيب
+            [price] => 1200
+            [quantity] => 4
+        )
+
+)
+
+[07-Sep-2025 18:25:20 UTC] DEBUG: Buy2Get1 - Total quantity: 4
+[07-Sep-2025 18:25:20 UTC] DEBUG: Buy2Get1 - Sorted prices: Array
+(
+    [0] => 1200
+    [1] => 1200
+    [2] => 1200
+    [3] => 1200
+)
+
+[07-Sep-2025 18:25:20 UTC] DEBUG: Buy2Get1 - Free items: 1
+[07-Sep-2025 18:25:20 UTC] DEBUG: Buy2Get1 - Adding free item 0 with price: 1200
+[07-Sep-2025 18:25:20 UTC] DEBUG: Buy2Get1 - Total discount: 1200
+[07-Sep-2025 18:25:20 UTC] DEBUG: Final discounts: Array
+(
+    [first_order] => 720
+    [buy2get1] => 1200
+    [coupon] => 0
+    [total] => 1920
+)
+
+[07-Sep-2025 18:25:20 UTC] DEBUG: === END DISCOUNT CALCULATION ===
+[07-Sep-2025 18:25:20 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:25:21 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 4
+        )
+
+)
+
+[07-Sep-2025 18:25:21 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 3
+        )
+
+)
+
+[07-Sep-2025 18:25:21 UTC] DEBUG: === CALCULATING TOTAL DISCOUNT ===
+[07-Sep-2025 18:25:21 UTC] DEBUG: Cart total: 3600
+[07-Sep-2025 18:25:21 UTC] DEBUG: User ID: 14
+[07-Sep-2025 18:25:21 UTC] DEBUG: Coupon code: none
+[07-Sep-2025 18:25:21 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:25:21 UTC] DEBUG: First order discount calculated: 540 (15% of 3600)
+[07-Sep-2025 18:25:21 UTC] DEBUG: Buy2Get1 - Cart items: Array
+(
+    [0] => Array
+        (
+            [id] => 62
+            [name] => أسرار الطيب
+            [price] => 1200
+            [quantity] => 3
+        )
+
+)
+
+[07-Sep-2025 18:25:21 UTC] DEBUG: Buy2Get1 - Total quantity: 3
+[07-Sep-2025 18:25:21 UTC] DEBUG: Buy2Get1 - Sorted prices: Array
+(
+    [0] => 1200
+    [1] => 1200
+    [2] => 1200
+)
+
+[07-Sep-2025 18:25:21 UTC] DEBUG: Buy2Get1 - Free items: 1
+[07-Sep-2025 18:25:21 UTC] DEBUG: Buy2Get1 - Adding free item 0 with price: 1200
+[07-Sep-2025 18:25:21 UTC] DEBUG: Buy2Get1 - Total discount: 1200
+[07-Sep-2025 18:25:21 UTC] DEBUG: Final discounts: Array
+(
+    [first_order] => 540
+    [buy2get1] => 1200
+    [coupon] => 0
+    [total] => 1740
+)
+
+[07-Sep-2025 18:25:21 UTC] DEBUG: === END DISCOUNT CALCULATION ===
+[07-Sep-2025 18:25:21 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:25:26 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 3
+        )
+
+)
+
+[07-Sep-2025 18:25:26 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 2
+        )
+
+)
+
+[07-Sep-2025 18:25:26 UTC] DEBUG: === CALCULATING TOTAL DISCOUNT ===
+[07-Sep-2025 18:25:26 UTC] DEBUG: Cart total: 2400
+[07-Sep-2025 18:25:26 UTC] DEBUG: User ID: 14
+[07-Sep-2025 18:25:26 UTC] DEBUG: Coupon code: none
+[07-Sep-2025 18:25:26 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:25:26 UTC] DEBUG: First order discount calculated: 360 (15% of 2400)
+[07-Sep-2025 18:25:26 UTC] DEBUG: Buy2Get1 - Cart items: Array
+(
+    [0] => Array
+        (
+            [id] => 62
+            [name] => أسرار الطيب
+            [price] => 1200
+            [quantity] => 2
+        )
+
+)
+
+[07-Sep-2025 18:25:26 UTC] DEBUG: Buy2Get1 - Total quantity: 2
+[07-Sep-2025 18:25:26 UTC] DEBUG: Buy2Get1 - Not enough items for discount
+[07-Sep-2025 18:25:26 UTC] DEBUG: Final discounts: Array
+(
+    [first_order] => 360
+    [buy2get1] => 0
+    [coupon] => 0
+    [total] => 360
+)
+
+[07-Sep-2025 18:25:26 UTC] DEBUG: === END DISCOUNT CALCULATION ===
+[07-Sep-2025 18:25:26 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:25:30 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 2
+        )
+
+)
+
+[07-Sep-2025 18:25:30 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 3
+        )
+
+)
+
+[07-Sep-2025 18:25:30 UTC] DEBUG: === CALCULATING TOTAL DISCOUNT ===
+[07-Sep-2025 18:25:30 UTC] DEBUG: Cart total: 3600
+[07-Sep-2025 18:25:30 UTC] DEBUG: User ID: 14
+[07-Sep-2025 18:25:30 UTC] DEBUG: Coupon code: none
+[07-Sep-2025 18:25:30 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:25:30 UTC] DEBUG: First order discount calculated: 540 (15% of 3600)
+[07-Sep-2025 18:25:30 UTC] DEBUG: Buy2Get1 - Cart items: Array
+(
+    [0] => Array
+        (
+            [id] => 62
+            [name] => أسرار الطيب
+            [price] => 1200
+            [quantity] => 3
+        )
+
+)
+
+[07-Sep-2025 18:25:30 UTC] DEBUG: Buy2Get1 - Total quantity: 3
+[07-Sep-2025 18:25:30 UTC] DEBUG: Buy2Get1 - Sorted prices: Array
+(
+    [0] => 1200
+    [1] => 1200
+    [2] => 1200
+)
+
+[07-Sep-2025 18:25:30 UTC] DEBUG: Buy2Get1 - Free items: 1
+[07-Sep-2025 18:25:30 UTC] DEBUG: Buy2Get1 - Adding free item 0 with price: 1200
+[07-Sep-2025 18:25:30 UTC] DEBUG: Buy2Get1 - Total discount: 1200
+[07-Sep-2025 18:25:30 UTC] DEBUG: Final discounts: Array
+(
+    [first_order] => 540
+    [buy2get1] => 1200
+    [coupon] => 0
+    [total] => 1740
+)
+
+[07-Sep-2025 18:25:30 UTC] DEBUG: === END DISCOUNT CALCULATION ===
+[07-Sep-2025 18:25:30 UTC] DEBUG: User 14 - Orders: 0 - Is first: YES
+[07-Sep-2025 18:25:33 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+            [62] => 3
+        )
+
+)
+
+[07-Sep-2025 18:25:33 UTC] DEBUG: cart.php loaded. SESSION: Array
+(
+    [user_id] => 14
+    [user_name] => 
+    [user_email] => ahmed12@gmail.com
+    [role] => user
+    [cart] => Array
+        (
+        )
+
+)
+
