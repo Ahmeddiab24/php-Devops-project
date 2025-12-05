@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  # PHP-Apache Container
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: myshop-web
+    ports:
+      - "8080:80"
+    environment:
+      - DB_HOST=mysql
+      - DB_USER=root
+      - DB_PASSWORD=myshop_password
+      - DB_NAME=myshop
+    volumes:
+      - ./images:/var/www/html/images
+      - ./logs:/var/www/html/logs
+    depends_on:
+      - mysql
+    networks:
+      - myshop-network
+    restart: unless-stopped
+
+  # MySQL Container
+  mysql:
+    image: mysql:8.0
+    container_name: myshop-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=myshop_password
+      - MYSQL_DATABASE=myshop
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./database:/docker-entrypoint-initdb.d
+    # ports:
+    #   - "3307:3306"  # Not exposing to host - web container uses internal network
+    networks:
+      - myshop-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+networks:
+  myshop-network:
+    driver: bridge
+
+volumes:
+  mysql-data:
+    driver: local
